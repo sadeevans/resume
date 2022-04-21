@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik+Bubbles&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Rubik+Moonrocks&family=Rubik+Wet+Paint&display=swap');
+
 
 body {
-    background: #FFFAFA;
-    font-family: 'Roboto', sans-serif;
+    background-color: 	#F0F0F0;
+    font-family: 'Neucha', sans-serif;
     font-size: 16PX;
     font-weight: normal;
-    color: #2f4f4f;
+    color: 	#303030;
 }
 
 a{
-    color: darkslategrey;
+    color: #505050;
     text-decoration: none;
 }
 
@@ -28,19 +29,40 @@ a:visited{
 .container {
     max-width: 750px;
     margin: auto;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .container h1{
     letter-spacing: .2rem;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px #be682a, 2px 2px #be682a, -1px -1px #be682a, -2px -2px #be682a, -1px 1px #be682a, 1px -1px #be682a, -2px 2px #be682a, 2px -2px #be682a, -3px -3px 4px #be682a, -3px 3px 4px #be682a, 3px 3px 4px #be682a, 3px -3px 4px #be682a;
+    text-shadow: 1px 1px #380000, 2px 2px #380000, -1px -1px #380000, -2px -2px #380000, -1px 1px #380000, 1px -1px #380000, -2px 2px #380000, 2px -2px #585858, -3px -3px 4px #585858, -3px 3px 4px #585858, 3px 3px 4px #585858, 3px -3px 4px #585858;
 }
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.social-text {
+    text-align: center;
+    flex-basis: 32%;
+    padding: 2px;
+    box-sizing: border-box;
+    margin-top: 2px;
+}
+.social-text1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    color:	#480000;
+}
+
 
 .container-1 {
     max-width: 750px;
     margin: auto;
-    color: #be682a;
+    color: #200000;
 } 
 
 .info {
@@ -49,12 +71,12 @@ a:visited{
 }
 
 .info-text {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .avatar {
-    width: 285px;
+    width: 300px;
     border-radius: 20px;
-    box-shadow: 4px 4px 14px #be682a;
+    box-shadow: 4px 4px 14px #380000;
 }
 
 .info-text p {
@@ -67,24 +89,24 @@ a:visited{
 }
 
 .card {
-    border: 2px solid #be682a;
+    border: 2px solid #680000;
     border-radius: 20PX;
-    border-image-source: linear-gradient(180deg, #BE682A 0%, rgba(47, 79, 79, 0) 100%);
+    border-image-source: linear-gradient(180deg, #680000 0%, rgba(47, 79, 79, 0) 100%);
     border-image-slice: 1;
-    background: #fff;
+    background: #F8F8F8;
     padding: 15px 20px;
     margin-bottom: 20px;
 }
 
 h2 {
     margin-bottom: 10px;
-    color: #2f4f4f;
+    color: #380000;
     text-align: left;
 }
 
 .btn {
-    background: #8B4513;
-    color:#f5f5f5;
+    background: #680000;
+    color:#F8F8F8;
     padding: 5px    10px;
     border: none;
     border-radius: 5px;
@@ -98,11 +120,6 @@ h2 {
 .container-one {
     width: 750px;
     margin: auto;
-    border: 2px solid #be682a;
-    border-radius: 20PX;
-    border-image-source: linear-gradient(180deg, #BE682A 0%, rgba(47, 79, 79, 0) 100%);
-    border-image-slice: 1;
-    background: #fff;
   }
 
   .members {
@@ -113,14 +130,14 @@ h2 {
   
   .member {
     text-align: center;
-    flex-basis: 33%;
+    flex-basis: 16%;
     padding: 2px;
     box-sizing: border-box;
     margin-bottom: 12px;
   }
   .foto {
-    width: 210px;
-    height: 180px;
+    width: 80px;
+    height: 80px;
     border-radius: 20px;
   }
   .member-name {
@@ -128,7 +145,7 @@ h2 {
     margin-top: 12px;
     font-weight: 600;
     font-size: 16px;
-    color:#8B4513;
+    color:	#480000;
   }
 
 .link-list {
@@ -153,7 +170,7 @@ h2 {
 
 .table td:nth-child(2),
 .table td:nth-child(3){
-    color: #8B4513;
+    color: 	#480000;
 }
 
 .form h2{
@@ -177,12 +194,12 @@ h2 {
 .form-group label {
 display: block;
 font-size: 14px;
-color: #8B4513;
+color: #480000;
 }
 .form-group input {
     display: block;
     font-size: 14px;
-    color: #8B4513;
+    color: #480000;
 }
 
 .form-group input,
@@ -191,7 +208,7 @@ color: #8B4513;
     box-sizing: border-box;
     border: none;
     background: transparent;
-    border-bottom: 1px solid #8B4513;
+    border-bottom: 1px solid #480000;
     color: #2f4f4f;
     padding: 15px 0 10px;
     outline: none;
